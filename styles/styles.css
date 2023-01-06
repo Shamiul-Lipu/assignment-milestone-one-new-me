@@ -5,10 +5,10 @@
 }
 
 /* 
-    Header and Banner styles Starts
+===========    Header and Banner styles Starts      ===========
 */
 .banner-container {
-    background-image: url(../images/banner/banner1.png);
+    background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -26,34 +26,125 @@
     font-size: 65px;
     line-height: 76px;
     font-weight: 800;
-    color: #151414;
+    color: #FFFFFF;
+    ;
     padding-bottom: 24px;
 }
 
 /* 
-    Primary Paragraph and Button
+    Primary Paragraph , Button and Heading
  */
 .paragraph-primary {
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color: #444343;
+    color: #FFFFFF;
     padding-top: 16px;
     padding-bottom: 16px;
 }
 
 .btn-primary {
-    background-color: #F15B22;
+    background-color: #FFFFFF;
     border: none;
     border-radius: 5px;
     font-weight: 600;
     font-size: 20px;
-    color: #FFFFFF;
-    padding: 21px 25px 20px 20px;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    color: #005FAC;
+    padding: 21px 36px 20px 36px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.heading-primary {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
 }
 
 /* 
     Header and Banner styles End
+*/
+/*  
+ ===============     Main Section Starts      ===============
+*/
+/*  
+    Sectoin: Previous year failures 
+*/
+.previous-year-failures {
+    padding: 150px 236px 100px 236px;
+    display: flex;
+}
+
+.failures-content {
+    padding: 258px 130px 130px 130px;
+}
+
+.failures-details {
+    color: #444343;
+    line-height: 26px;
+}
+
+.failures-content ul {
+    list-style: none;
+}
+
+.failures-check {
+    color: #16D887;
+}
+
+/*  
+    Sectoin: Previous year failures Ends
+*/
+/* 
+    Section: My Plans
+*/
+.my-plans {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 256px;
+}
+
+.plan-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-bottom: 20px;
+}
+
+.plans-target-point {
+    text-align: center;
+}
+
+.paragraph-primary-black {
+    color: #444343;
+    line-height: 26px;
+}
+
+/* 
+    Section: My Plans Ends
+*/
+/* 
+    Secton: Contact Starts
+*/
+.contact-container {
+    background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url(../images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 59px;
+    margin: 18px 220px;
+    border: none;
+    border-radius: 10px;
+}
+
+.change-color {
+    color: #FFFFFF;
+}
+
+/* 
+    Secton: Contact Ends
+*/
+/*  
+    Main Section Ends
 */
