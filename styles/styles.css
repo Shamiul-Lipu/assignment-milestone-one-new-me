@@ -148,3 +148,55 @@
 /*----------------------------------------------------------
     Main Section Ends
 ----------------------------------------------------------*/
+/*----------------------------------------------------------  
+    Footer secton Starts
+----------------------------------------------------------*/
+
+.footer{
+    background-color: #151414;
+    margin-top: 130px;
+    display: flex;
+}
+/* Future section */
+.future{
+    justify-content: left;
+    align-items: flex-start;
+    padding: 130px 230px;
+} 
+.icon img{
+    padding-right: 17px;
+}
+/* Subscribe section */
+.subscribe{
+    justify-content: left;
+    align-items: flex-start;
+    padding: 130px 230px;
+}
+.change-font-size{
+    font-style: normal;
+    font-weight: 550;
+    font-size: 25px;
+    line-height: 29px;
+}
+input{
+    display: block;
+    margin-top: 31px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    line-height: 21px;
+    background-color: #151414;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    padding: 18px 37px;
+}
+input::placeholder{
+    color: #FFFFFF;
+}
+.btn-color{
+    background-color: #005FAC;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+/*----------------------------------------------------------  
+    Footer secton Ends
+----------------------------------------------------------*/
