@@ -145,6 +145,150 @@
 /*---------------------------------------------------------- 
     Secton: Contact Ends
 ----------------------------------------------------------*/
+/*---------------------------------------------------------- 
+    Extra features section
+----------------------------------------------------------*/
+/* Developer Roadmap starts */
+.extra-features {
+    display: flex;
+}
+
+.developer {
+    width: 50%;
+    /* background-color: #16D887; */
+}
+
+.developer-roadmap {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding-left: 130px;
+}
+
+.roadmap-heading {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #073139;
+    padding: 50px 0;
+}
+
+.roadmap-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 47px;
+    color: #073139;
+    padding: 10px 0;
+}
+
+/* Frontend */
+.frontend {
+    background-color: #D8F4FA;
+    border: 3px solid #ACE8F4;
+    border-radius: 8px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 18px;
+}
+
+.hover:hover {
+    border: 3px solid #12798E;
+    box-shadow: 5px 10px 8px 10px #62e3fc28;
+
+}
+
+.frontend ul {
+    list-style: none;
+}
+
+.frontend li {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #073139;
+}
+
+.frontend p {
+    color: #073139;
+}
+
+.frontend a:link {
+    color: #30b0ca;
+    text-decoration: none;
+}
+
+/* Backend */
+.backend {
+    background-color: #D8F4FA;
+    border: 3px solid #ACE8F4;
+    border-radius: 8px;
+    padding-top: 25px;
+    padding-left: 25px;
+    padding-right: 10px;
+}
+
+.backend ul {
+    list-style: none;
+}
+
+.backend li {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #073139;
+}
+
+.backend p {
+    color: #073139;
+}
+
+.backend a:link {
+    color: #30b0ca;
+    text-decoration: none;
+}
+
+.extra-icon {
+    height: 50px;
+    width: 50px;
+}
+
+/* Start with us */
+.start-with-us {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.start-with-us img {
+    height: 50%;
+    width: 70%;
+}
+
+form {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-with-us input {
+    display: inline;
+    background-color: #D8F4FA;
+}
+
+.start-with-us input::placeholder {
+    color: #073139;
+}
+
+.start-with-us input:hover {
+    border: 1.5px solid #073139;
+}
+
+/* Developer Roadmap ends */
+/*---------------------------------------------------------- 
+    Extra features section Ends
+----------------------------------------------------------*/
 /*----------------------------------------------------------
     Main Section Ends
 ----------------------------------------------------------*/
